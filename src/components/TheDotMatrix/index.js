@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Paper } from '@material-ui/core';
-import Board from '../Board';
-import Controls from '../Controls';
+import Board from './Board';
+import Controls from './Controls';
 
 const useStyles = makeStyles((theme) => ({
   root: {
